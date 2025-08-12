@@ -63,7 +63,7 @@
 **Agenda:** Review individual analyses, finalize dashboard, and slide deck preparation.
 
 ---
-# Final Project – Meeting 2 Minutes
+# Final Project – Meeting 2 (Minutes of Meeting)
 
 **Date:** August 11, 2025  
 **Time:** 1:00 AM  
