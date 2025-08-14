@@ -6,7 +6,7 @@ This report analyzes **100,000 retail transactions** (Jan 2019 – Dec 2020) acr
 
 ---
 
-## ** Discover – Current Market Landscape**
+## Discover – Current Market Landscape
 
 ### Geographic Performance
 
@@ -102,3 +102,4 @@ The data tells a clear story: this retail chain’s profitability rests on **thr
 
 
 **Bottom Line:** By acting decisively on these levers, the chain can strengthen its resilience, lift annual profits by **15–20%**, and secure sustainable growth across markets.
+
