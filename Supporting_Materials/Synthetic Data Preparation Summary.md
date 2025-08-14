@@ -1,149 +1,35 @@
+# Synthetic Data Preparation Summary Report
 
-# Final Project – Minutes of Meeting
+This report summarizes the methods and steps used to prepare the synthetic dataset in the BigQuery table `mgmt599-rakesh-final-project.superstore.SuperMarketSynth`.
 
-**Date:** August 6, 2025  
-**Time:** 1:08 AM CST  
-**Mode:** Virtual  
-**Attendees:** Rakesh Prusty, Kunal Ghosh, Sai Praveesha Nuka, Pavan Kalyan Reddy Meka, Erjon Brucaj  
-**Duration:** ~55 minutes  
+## Methods Used
 
----
+The synthetic data was generated using the following methods:
 
-## Key Discussions & Decisions
+* **Sampling from Existing Data Distribution**: Key numerical columns ('Quantity', 'cogs', and 'Rating') were generated based on the mean and standard deviation of the existing data in the `mgmt599-rakesh-final-project.superstore.SuperMarketRaw` table, assuming a normal distribution. Categorical columns were sampled randomly from the existing data.
+* **Applying Business Rules/Formulas**: Specific formulas were applied to calculate derived columns based on generated 'Unit price' and 'Quantity' values:
+  * 'Tax 5%' = 0.05 * ('Unit Price' * 'Quantity')
+  * 'Sales' = ('Unit Price' * 'Quantity') + 'Tax 5%'
+  * 'Gross income' = 'Sales' - 'Cogs'
+  * 'Gross margin percentage' = ('Gross Income' / 'Sales') * 100
+* **Implementing Downward Sales Trend**: A linear scaling factor was applied to the 'Sales' column over time to simulate a slight downward trend in monthly sales from April 2019 to December 2020.
+* **Date Range Extension**: Synthetic data was generated for a period extending beyond the original dataset (April 2019 to December 2020) to increase the overall data duration.
+* **Quantity Constraint**: The 'Quantity' in the synthetic data was constrained to a maximum of 2.
+* **Unit Price Adjustment**: The 'Unit price' in the synthetic data generated for the period from April 2019 to December 2020 was divided by 2.
+* **COGS Adjustment**: For the period from April 2019 to December 2020, 'cogs' values were adjusted to be between 2% and 5% less than 'Sales'.
 
-### 1. Project Roles & Data Set Finalization
-- Roles assigned among team members.
-- Agreed on using the Retail Data Set (1,000 records from Kaggle).
-- Synthetic data set (100,000 records) created by Rakesh as backup.
-- Awaiting TA (Aastha)’s input for final dataset decision.
+## Steps Taken
 
-### 2. Data Suitability & Course Expectations
-- Dataset covers required roles and analysis points.
-- Course expectations (GCP, BigQuery, ML, pipeline) must be reflected.
-- At least one ML implementation suggested to showcase learning outcomes.
+The following steps were performed to prepare the synthetic data:
 
-### 3. Deliverables & Timeline
-- Individual analysis due by August 11.
-- Work to be done in BigQuery and GitHub.
-- README.md required per individual folder.
-- Team meets again on August 11 to consolidate work.
+1. **Load Existing Data**: The original data from `mgmt599-rakesh-final-project.superstore.SuperMarketRaw` was loaded into a pandas DataFrame to analyze its distribution.
+2. **Analyze Existing Data Distribution**: Mean and standard deviation were calculated for numerical columns in the existing data to serve as parameters for synthetic data generation.
+3. **Generate Synthetic Data**: Synthetic records were generated for the period from April 2019 to December 2020, including generating dates, sampling categorical data, and generating numerical data based on the analyzed distributions and the specified quantity constraint and initial unit price adjustment.
+4. **Apply Formulas to Synthetic Data**: The formulas for 'Tax 5%', 'Sales', 'Gross income', and 'Gross margin percentage' were applied to the generated synthetic data.
+5. **Adjust Synthetic Data for Downward Sales Trend and COGS**: The 'Sales' column in the synthetic data was scaled linearly over time to create a downward monthly sales trend. Additionally, 'cogs' values for the period from April 2019 to December 2020 were adjusted to be between 2% and 5% less than 'Sales', and dependent columns were re-calculated based on the adjusted 'Sales' and 'cogs'.
+6. **Combine Existing and Synthetic Data**: The original and synthetic DataFrames were concatenated to create a single combined dataset.
+7. **Create BigQuery Table**: A new BigQuery table named `mgmt599-rakesh-final-project.superstore.SuperMarketSynth` was created with a schema matching the combined DataFrame.
+8. **Load Combined Data into BigQuery**: The combined DataFrame was loaded into the newly created BigQuery table, replacing any existing data in the table.
+9. **Verify Data**: The data in the `mgmt599-rakesh-final-project.superstore.SuperMarketSynth` table was queried to verify the total record count, date range, and confirm the presence of the downward sales trend and the COGS adjustment.
 
-### 4. Slide Deck Division
-- **Problem & Approach:** Sai  
-- **Key Insight Slides:** Each member  
-- **Strategic Recommendations:** Kunal  
-- **Implementation Timeline & Resources:** Rakesh (with Kunal & Pavan)  
-- **Expected ROI & Metrics:** Erjon  
-- **Call to Action:** Pavan  
-
-### 5. Dashboard & Presentation
-- Dashboard to be built in **Colab with Plotly** (preferred by professor).
-- One consolidated interactive dashboard required.
-- Final deliverables include slides, dashboard, notebooks, group video, and GitHub repo.
-
----
-
-## Action Items
-
-| Task | Owner | Deadline |
-|------|-------|----------|
-| Confirm with TA (Aastha) about dataset size | Pavan | ASAP |
-| Perform individual dive analysis | All Members | Before Aug 11 |
-| Prototype Plotly dashboard | Rakesh | Aug 11 |
-| Prepare individual README.md | All Members | With analysis |
-| Update and finalize slide deck | All Members | Aug 13 (tentative) |
-| Record final project video | All Members | Post Aug 13 |
-
----
-
-## Next Meeting
-
-**Date:** Monday, August 11, 2025  
-**Time:** 8:00 PM CST  
-**Agenda:** Review individual analyses, finalize dashboard, and slide deck preparation.
-
----
-# Final Project – Meeting 2 (Minutes of Meeting)
-
-**Date:** August 11, 2025  
-**Time:** 1:00 AM  
-**Attendees:** Rakesh Prusty, Sai Praveesha Nuka, Pavan Kalyan Reddy Meka, Kunal Ghosh, Erjon Brucaj
-
----
-
-## 1. Data Analysis Discussion
-
-- **Visualization Concerns:** 
-  - Sai expressed uncertainty over synthetic data results and shared visualization that appeared skewed.
-  - Rakesh and others confirmed similar findings with customer type, gender-based sales trends, and time-of-day sales behavior.
-  - Financial analysis revealed lower gross figures after data cleaning, and declining trends post-April 2019.
-
-- **Synthetic Data Limitations:** 
-  - General consensus that synthetic data, while aligned in structure, yields questionable insights due to AI hallucination and combination of dimensions.
-  - Discussion on whether to regenerate data or stick with the current dataset – decision made to continue with current.
-
----
-
-## 2. Dashboard and Presentation Strategy
-
-- **Dashboard Development:**
-  - Rakesh created dashboards in both Plotly and Looker Studio.
-  - Preference expressed for Plotly due to professor’s prior indication.
-  - Team will continue with Looker dashboard 
-  - KPIs include sales by gender, customer type, payment type, and geographic region.
-  - Drill-down features (day/month/quarter/year) and KPI filters integrated.
-
-- **Team Feedback:**
-  - Kunal and others appreciated dashboard quality.
-  - Plan to submit screenshot contributions for integration.
-  - Team to finalize which KPIs to retain on final dashboard.
-
----
-
-## 3. Project Deliverables and Timeline
-
-- **Final Submission Components:**
-  - 8–10 slide team presentation
-  - Team video presentation
-  - Technical documentation (README.md in GitHub)
-  - Dashboard (Plotly or Looker)
-  - Team collaboration log
-
-- **Individual Submissions:**
-  - README file with personal insight summary.
-  - Must include key findings post-DIVE analysis.
-
----
-
-## 4. Tools and Enhancements
-
-- **Visualization Tools:**
-  - Napkin AI suggested for enhancing PPT visuals.
-  - Aim to reduce text, focus on bullet points and infographics.
-
-- **Design Consistency:**
-  - One team member to own the deck structure for visual uniformity.
-  - SmartArt and AI-generated graphics to be used for aesthetics.
-
----
-
-## 5. Next Steps and Deadlines
-
-- **PowerPoint Submission:** Target by Thursday, August 14
-- **Team Recording:** Tentatively planned for Friday
-- **Meeting Schedule:** Final sync-up on Thursday
-- **Final Push:** Everything to be completed by Friday due to weekend unavailability
-
----
-
-## 6. Key Decisions
-
-- Stick with current synthetic dataset due to time limitations.
-- Finalize visuals using Napkin AI and streamline the dashboard.
-- Ensure professionalism in the final deliverables for better evaluation.
-
----
-
-**Prepared by:** Rakesh Prusty  
-**Date:** August 12, 2025
-
+This process resulted in a synthetic dataset of approximately 100,000 records, combined with the original 1,000 records, covering a period of two years with a simulated downward trend in monthly sales, incorporating the specified constraints and adjustments.
