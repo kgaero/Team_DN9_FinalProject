@@ -1,5 +1,6 @@
 # Synthetic Data Preparation Summary Report
 
+The original datasource (https://www.kaggle.com/datasets/faresashraf1001/supermarket-sales) was selected by the Team because of the fields available for the analysis. However, there were only 1000 records present in the original dataset. After getting confirmation from Prof, Team decided to create synthetic data so that DIVE analysis can be done on 100k records.  
 This report summarizes the methods and steps used to prepare the synthetic dataset in the BigQuery table `mgmt599-rakesh-final-project.superstore.SuperMarketSynth`.
 
 ## Methods Used
