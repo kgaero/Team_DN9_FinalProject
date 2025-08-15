@@ -147,7 +147,7 @@
 **Prepared by:** Rakesh Prusty  
 **Date:** August 12, 2025
 
-# Final Project – Meeting 2 (Minutes of Meeting)
+# Final Project – Meeting 3 (Minutes of Meeting)
 
 **Date:** August 14, 2025  
 **Time:** 1:15 AM  
