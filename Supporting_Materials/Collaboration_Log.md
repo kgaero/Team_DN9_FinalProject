@@ -147,3 +147,56 @@
 **Prepared by:** Rakesh Prusty  
 **Date:** August 12, 2025
 
+# Final Project – Meeting 2 (Minutes of Meeting)
+
+**Date:** August 14, 2025  
+**Time:** 1:15 AM  
+**Attendees:**  
+- Rakesh Prusty  
+- Sai Praveesha Nuka  
+- Kunal Ghosh  
+- Erjon Brucaj  
+- Pavan Kalyan Reddy Meka  
+
+---
+
+## 1. Recap of Progress
+- Reviewed slides 1–8; content and structure confirmed.
+- Pavani to adjust font formatting; all other elements remain unchanged.
+
+---
+
+## 2. Main Discussion Points
+
+### 2.1 Top Three Strategic Recommendations
+- **Recommendation 1:** Omnichannel strategy (ship-from-store, buy-online-pick-up-in-store) to compete with digital disruptors and capture nighttime sales.  
+- **Recommendation 2:** Loyalty program and targeted promotions leveraging member customers for personalized marketing.  
+- **Recommendation 3:** Operational efficiency improvements, including diversification, product mix expansion, and demand rebalancing.
+
+### 2.2 Supporting Insights
+- Technology suggestions: Web portal for product catalog, AI-powered personalization, AR in-store displays, and self-checkout systems.
+- Promotions focus: E-wallet incentives, city-specific campaigns, off-peak promotions, and bundling strategies.
+- Operational considerations: Resource allocation for recommendations, staffing adjustments for peak promo periods.
+
+---
+
+## 3. Action Items
+- **Rakesh & Erjon:** Finalize slide #10 (implementation plan) and #11 (resources needed) based on top three recommendations. Meeting scheduled for Aug 15, 11:00 AM–12:00 PM CST.  
+- **Kunal:** Finalize and polish slide #9 content once #3 recommendation is confirmed.  
+- **Pavan:** Complete “Call to Action” slide after slides 9–11 are finalized; record and upload video to YouTube with link in README.md.  
+- **All Members:** Record individual voiceovers for assigned slides by **Saturday, Aug 16, 9:00 PM EST**.
+
+---
+
+## 4. Deadlines
+- **Voiceovers complete:** Saturday, Aug 16, 9:00 PM EST.  
+- **Project submission target:** Saturday night, Aug 16 (final deadline Sunday, Aug 17, 12:00 PM EST).
+
+---
+
+## 5. Decisions Made
+- Proceed with three key recommendations as finalized above.
+- Maintain individual slide voiceovers for participation credit.
+- Use concise, consistent slide timing (~25 seconds each) to fit 3–5 minute total video requirement.
+
+
