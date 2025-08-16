@@ -64,6 +64,7 @@ Key system-wide KPIs from the dataset:
 **Insight:** Stability across operational metrics is good, but it also indicates **limited differentiation strategies** — no branch is standing out in customer yield.  
 
 
+
 # Investigate: Operational Factors and Bottlenecks  
 
 The **Investigate** phase digs into *why* the observed inefficiencies exist and what operational factors drive success, using branch comparisons, temporal patterns, and product-line margins.  
