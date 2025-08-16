@@ -3,6 +3,15 @@
 
 # DIVE Analysis – Risk & Strategy Analyst 
 ---
+## Option B: Retail Chain Transformation
+---
+Client: Legacy retail chain in Myanmar
+---
+Dataset: Store Performance and Customer data
+---
+I'm the Risk & Strategy Analyst analyzing this data of the retail supermarket chain for strategic consulting. This document presents an in-depth operational excellence analysis using the DIVE framework.
+
+---
 
 ## Discover Phase – Mapping the Current Landscape
 
