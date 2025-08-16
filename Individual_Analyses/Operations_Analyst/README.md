@@ -160,6 +160,7 @@ The **Investigate** phase digs into *why* the observed inefficiencies exist and 
 
 
 
+
 # Validate: Testing Operational Improvement Hypotheses  
 
 The **Validate** phase tests whether the assumptions from the Investigate stage are supported by statistical evidence, or if they may be explained by noise, confounders, or missing data.  
