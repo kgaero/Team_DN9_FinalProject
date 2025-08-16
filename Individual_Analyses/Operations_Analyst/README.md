@@ -1,4 +1,20 @@
-# Retail Chain Operational Excellence Analysis
+# Final Project - DIVE Analysis as Operational Excellence Analysis
+
+## Option B: Retail Chain Transformation
+
+Client: Legacy retail chain losing market share
+Dataset: Store performance and customer data
+
+# Operational Excellence Analysis
+
+This document presents an in-depth operational excellence analysis using the DIVE framework.
+
+It draws from data outputs (branch transactions, hours, sales) and Gemini recommendations.
+
+## Discover: Process Efficiency, Resource Utilization, Operational Metrics
+
+The initial phase focuses on uncovering baseline performance.
+
 
 ## Executive Summary
 This report presents an extensive analysis of a legacy retail chain’s operational performance, 
