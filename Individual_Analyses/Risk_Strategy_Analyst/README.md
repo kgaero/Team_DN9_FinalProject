@@ -1,9 +1,6 @@
-
-
-
 # DIVE Analysis – Risk & Strategy Analyst 
----
-## Option B: Retail Chain Transformation
+
+ Option B: Retail Chain Transformation
 ---
 Client: Legacy retail chain in Myanmar
 
