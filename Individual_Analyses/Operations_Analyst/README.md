@@ -5,10 +5,8 @@
 Client: Legacy retail chain losing market share
 Dataset: Store performance and customer data
 
-# Operational Excellence Analysis
 
 This document presents an in-depth operational excellence analysis using the DIVE framework.
-
 It draws from data outputs (branch transactions, hours, sales) and Gemini recommendations.
 
 ## Discover: Process Efficiency, Resource Utilization, Operational Metrics
