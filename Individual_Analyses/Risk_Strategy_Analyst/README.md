@@ -6,7 +6,7 @@ Client: Legacy retail chain in Myanmar
 
 Dataset: Store Performance and Customer data
 
-I'm the Risk & Strategy Analyst analyzing this data of the retail supermarket chain for strategic consulting. This document presents an in-depth operational excellence analysis using the DIVE framework.
+I'm the Risk & Strategy Analyst analyzing this data of the retail supermarket chain for strategic consulting. This document presents risk and strategy analysis summary using the DIVE framework.
 
 ---
 
@@ -193,6 +193,7 @@ Here is where strategy translates into action with **multi-pronged interventions
 ## Impact Statement
 
 If these levers are executed systematically, the chain can realistically unlock **15–20% profit uplift**. More importantly, the company would move from a **fragile, concentration-exposed model** to a **resilient, diversified growth engine**.
+
 
 
 
