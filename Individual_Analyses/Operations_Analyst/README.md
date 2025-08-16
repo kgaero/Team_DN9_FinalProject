@@ -64,28 +64,40 @@ Key system-wide KPIs from the dataset:
 **Insight:** Stability across operational metrics is good, but it also indicates **limited differentiation strategies** — no branch is standing out in customer yield.  
 
 
-# 🔎 Investigate: Operational Factors and Bottlenecks  
+# Investigate: Operational Factors and Bottlenecks  
 
-The **Investigate** phase digs into *why* the observed inefficiencies exist, using branch comparisons, temporal patterns, and product-line margins.  
+The **Investigate** phase digs into *why* the observed inefficiencies exist and what operational factors drive success, using branch comparisons, temporal patterns, and product-line margins.  
 
 ---
 
-## 1. Root Causes Identified  
+## Key Drivers of Success (Highlights)  
+
+- **Staffing Consistency (Cairo):** Peak-hour resilience shows that well-timed staffing prevents ticket erosion.  
+- **Efficient Tender Mix:** Branches with higher e-wallet usage avoid checkout slowdowns.  
+- **Margin Discipline (Giza):** Focusing on profitable categories drives sustainable performance even at lower revenue.  
+- **Timely Replenishment:** Proactive restocking during peaks sustains basket size and customer satisfaction.  
+
+---
+
+## 1. Root Causes and Success Drivers  
 
 - **Staffing misalignment at peaks (Alex):**  
-  Average ticket *drops −$0.49* during 13:00–19:00, suggesting long queues and incomplete baskets. Cairo actually improves (+$0.22), hinting that staffing coverage is stronger there.  
+  Average ticket *drops −$0.49* during 13:00–19:00, suggesting long queues and incomplete baskets. Cairo actually improves (+$0.22), highlighting stronger staffing coverage as a success driver.  
 
 - **Checkout tender mix (Alex):**  
-  Cash share increases **+1.1%** during peaks, slowing checkout speed. Cairo/Giza show <0.4% change, implying less impact.  
+  Cash share increases **+1.1%** during peaks, slowing checkout speed. Cairo/Giza show <0.4% change, suggesting that efficient tender adoption is a driver of smoother throughput.  
 
 - **Margin trade-offs:**  
-  Alex generates the **highest revenue (~$263K)** but lowest margin (**14.05%**). Giza is the opposite: lower revenue (~$149K) but highest margin (**20.36%**).  
+  Alex generates the **highest revenue (~$263K)** but lowest margin (**14.05%**). Giza demonstrates the opposite: lower revenue (~$149K) but highest margin (**20.36%**). This indicates that disciplined product mix management is a driver of margin success.  
 
 - **Inventory timing (Alex):**  
-  Dips in units/transaction for **Food & Beverages (−0.013)** and **Electronics (−0.010)** during peak hours suggest stock-outs or late replenishment.  
+  Dips in units/transaction for **Food & Beverages (−0.013)** and **Electronics (−0.010)** during peak hours suggest stock-outs or late replenishment. In contrast, Cairo’s steadier units/txn suggests well-timed replenishment is a driver of peak performance.  
 
 - **Product line leverage:**  
-  Health & Beauty yields ~18.25% margin in Alex, but contribution to total sales share is not dominant. Strong potential to lift branch margins with better placement/bundling.  
+  Health & Beauty yields ~18.25% margin in Alex, but contribution to sales share is not dominant. Giza, with a higher relative share of high-margin categories, shows that success is driven by maximizing placement and bundling of profitable product lines.  
+
+- **Consistent peak performance (Cairo):**  
+  Cairo stands out as a “success case” in handling peaks. Despite heavy volume, it maintains stable average ticket, suggesting that operational consistency (staffing, checkout flow, replenishment) directly drives resilience.  
 
 ---
 
@@ -140,11 +152,10 @@ The **Investigate** phase digs into *why* the observed inefficiencies exist, usi
 
 ## 5. Insights  
 
-- **Revenue vs margin is a trade-off.** Alex proves high volume can still erode profitability without margin discipline.  
+- **Revenue vs margin is a trade-off.** Alex proves high volume can erode profitability without margin discipline.  
 - **Bottlenecks compound at peaks.** Staffing gaps, slower tender mix, and stockouts all converge 13:00–19:00, especially in Alex.  
-- **Giza’s high margin model** shows operational efficiency, but low revenue means growth must come from increasing traffic or replicating high-margin plays.  
-
-
+- **Success factors are replicable.** Cairo shows that operational consistency in staffing, checkout flow, and replenishment can sustain performance under pressure.  
+- **Margin leverage is underutilized.** Giza’s high-margin model highlights the potential for other branches to emphasize profitable categories without sacrificing throughput.  
 
 
 
