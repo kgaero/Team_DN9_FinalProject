@@ -61,7 +61,8 @@ Key system-wide KPIs from the dataset:
 | Sales/Txn | 16.4 – 17.2 | Narrow band, suggests stable price architecture |
 | Peak Share | 35% of daily | Concentrated in two windows (13:00, 19:00) |
 
-**Insight:** Stability across
+**Insight:** Stability across operational metrics is good, but it also indicates **limited differentiation strategies** — no branch is standing out in customer yield.  
+
 
 
 
