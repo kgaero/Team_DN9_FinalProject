@@ -171,7 +171,7 @@ Across dimensions, the simulations show the chain’s profit base is **fragile u
 
 ## Extend Phase – Strategic Recommendations
 
-Here is where strategy translates into action. Instead of short one-liners, let’s spell out **multi-pronged interventions**.
+Here is where strategy translates into action with **multi-pronged interventions**.
 
 1. **Category Diversification:**
    The data suggests that profitability is driven almost entirely by volume in top categories. Therefore, a deliberate effort to **shift some demand into tail categories**—Sports, Home & Lifestyle, Health & Beauty—can act as a buffer. This can be executed via **bundled promotions** (e.g., Electronics + Sports kits, Food + Home dining bundles). By using anchor categories as traffic drivers, the business can **increase exposure to weaker segments**, building resilience without sacrificing profit.
@@ -193,4 +193,5 @@ Here is where strategy translates into action. Instead of short one-liners, let�
 ## Impact Statement
 
 If these levers are executed systematically, the chain can realistically unlock **15–20% profit uplift**. More importantly, the company would move from a **fragile, concentration-exposed model** to a **resilient, diversified growth engine**.
+
 
